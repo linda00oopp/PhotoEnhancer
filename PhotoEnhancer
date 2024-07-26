@@ -1,0 +1,27 @@
+PhotoEnhancer/
+├── .github/
+│   ├── ISSUE_TEMPLATE/
+│   │   ├── bug_report.md
+│   │   ├── feature_request.md
+│   └── workflows/
+│       └── ci.yml
+├── src/
+│   ├── __init__.py
+│   ├── enhancer.py
+│   ├── filters.py
+│   └── utils.py
+├── data/
+│   ├── input_images/
+│   └── output_images/
+├── scripts/
+│   ├── apply_filter.py
+│   └── batch_process.py
+├── tests/
+│   ├── test_enhancer.py
+│   ├── test_filters.py
+│   └── test_utils.py
+├── .gitignore
+├── LICENSE
+├── README.md
+├── requirements.txt
+└── setup.py
